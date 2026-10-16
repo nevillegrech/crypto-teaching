@@ -1,0 +1,8 @@
+[package]
+name = "crypto-teaching"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+aes = "0.9"
+image = { version = "0.25", default-features = false, features = ["png"] }
